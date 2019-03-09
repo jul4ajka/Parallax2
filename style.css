@@ -1,0 +1,144 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:16px;
+  line-height:24px;
+}
+/*Slider*/
+.slider {
+  height:100vh;
+  width:100%;
+}
+.slider img {
+  width:100%;
+  height:100vh;
+}
+
+h2 {
+  margin:15px auto 30px;
+  padding:10px;
+  border-top:2px solid #000;
+  border-bottom:2px solid #000;
+  text-align:center;
+  font-weight:800 !important;
+}
+
+
+/*Featured Area*/
+.mobfm-home-tiles-featured img {
+  width:100%;
+  height:auto;
+}
+.mobfm-home-tiles-featured a {
+  color:#000;
+}
+.mobfm-home-tiles-featured a:hover {
+  color:#dd3303;
+  text-decoration:none;
+}
+
+.mobfm-home-tiles-featured a:hover h3 {
+  color:#dd3303;
+  text-decoration:underline;
+}
+
+.mobfm-home-tiles-featured a:hover p {
+  text-decoration:none;
+  color:#000;
+}
+.mobfm-home-tiles-featured a:hover strong {
+  text-decoration:none;
+  color:#dd3303;
+}
+.mobfm-home-tiles-featured strong {
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+/*Parallax Area 1*/
+.parallax1 {
+  height:100vh;
+  background-image:url("https://images.pexels.com/photos/1902647/pexels-photo-1902647.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size:cover;
+  background-repeat:no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+}
+.parallax1 img {
+  max-width: 285px;
+  height:auto;
+}
+
+
+/*Parallax Area 2*/
+.parallax2 {
+  height:100vh;
+  background-color:#dd3303;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position:relative;
+  text-align:center;
+  color:#FFF;
+}
+
+
+/*footer*/
+footer {
+  height:100vh;
+  width: 100vw;
+  background-color: white;
+}
+
+/* Parallaxed sections */
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.wrapper::-webkit-scrollbar { 
+  display: none; 
+}
+
+.parallax{
+  transform: translateZ(-2.3px) scale(2.3);
+  z-index: -1;
+  color: black;
+}
+
+.container-fluid{
+    background-color: #FFF;
+    height: initial;
+    width: 100vw;
+}
+
+.container {
+    background-color: #FFF;
+    height: initial;
+    padding-top: 10vw;
+    width: 100vw!important;
+}
+
+.bg-white {
+  width: 100vw;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
